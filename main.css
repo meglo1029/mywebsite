@@ -62,6 +62,7 @@
 	font-size: 55px;
 	display: block;
 	text-align: center;
+	font-weight: 600;
 	padding-top: 135px;
 }
 .textabout {
@@ -69,6 +70,7 @@
 	margin-top: 130px;
 	text-transform: uppercase;
 	font-size: 16px;
+	font-weight: 600;
 }
 .contactbutton {
 	width: 150px;
