@@ -1,3 +1,5 @@
+// ANIMATE ABOUT ME POINTS-------------
+
 var animatePoints = function() {
     var revealPoint = function() {
              $(this).css({
@@ -21,6 +23,9 @@ var animatePoints = function() {
          }
      });
  });
+ // END ANIMATE ABOUT ME---------------->
+
+ // SMOOOOOOTH SCROLLINING--------------->
  
 $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
@@ -37,6 +42,10 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
+// END SMOOTH SCROLLING -------
+
+
+// HEY! WATCH WHERE YOURE GOING...
 
 $(".mynametext").click(function(){
 
