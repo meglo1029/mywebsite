@@ -36,3 +36,15 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
+
+
+$(".mynametext").click(function(){
+
+    alert("Ow! Watch where you're going...");
+
+});
+
+
+
+
+
