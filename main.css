@@ -125,6 +125,7 @@
 	-moz-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+
 .myskills {
 	margin: 45px;
 	font-family: 'Jaldi', sans-serif;
@@ -300,8 +301,8 @@ ul {
 
 
 
-/*
-@media all and (max-width: 480px) and (min-width: 320px) {
+
+/*@media screen and (max-width: 480px) {
 
 	.aboutme-first.point {
 	    display: block;
@@ -390,6 +391,5 @@ ul {
 		background-color: #C9D5B5;
 	}
 
-}
 
 */
