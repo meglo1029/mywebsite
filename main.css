@@ -51,7 +51,7 @@
 }
 .aboutmesection {
 	background-color: #C9D5B5;
-	height: 65vh;
+	padding: 70px 15px;
 	display: flex;
 	align-items: center;
 	font-family: 'Jaldi', sans-serif;
@@ -174,7 +174,7 @@ ul {
 	overflow: hidden;
 }
 .contactme {
-	height: 40vh;
+	padding: 15px 10px 55px 10px;
 	background-color: #C9D5B5;
 	border-top: 3px solid;
 	font-family: 'Jaldi', sans-serif;
@@ -316,10 +316,6 @@ ul {
 	    display: block;
 	    width: 80%;
 	    position: relative; 
-	}
-
-	.aboutmesection {
-		height: 100vh;
 	}
 
 	.aboutcontainer {
