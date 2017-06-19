@@ -40,7 +40,7 @@
 /*BODY CSS*/
 
 .welcome {
-	background: url('succulents-wallpaper-desktop.png') no-repeat top;
+	background: url('background.png') no-repeat top;
 	background-size: cover;
 	height: 100vh;
 	font-family: 'Shadows Into Light';
