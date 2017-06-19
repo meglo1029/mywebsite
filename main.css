@@ -47,7 +47,7 @@
 	background: url('background.png') no-repeat top;
 	background-size: cover;
 	height: 100vh;
-	font-family: 'Shadows Into Light';
+	font-family: 'Roboto', sans-serif;
 }
 .aboutmesection {
 	background-color: #C9D5B5;
@@ -84,19 +84,20 @@
 	background-color: #A76571;
 	display: block;
 	margin: 0 auto;
+	margin-top: 150px;
 	text-align: center;
 	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 .contactbutton:hover {
 	background: rgba(0, 0, 0, 0);
 	color: #3a7999;
 	box-shadow: inset 0 0 0 3px #3a7999;
 }
-.contactbutton a {
+ a {
 	text-decoration: none;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 14px;
 }
 .aboutme-first {
 	position: relative;
