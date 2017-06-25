@@ -26,7 +26,7 @@
 	display: inline-block;
 	margin: 20px;
 	padding-right: 15px;
-	font-family: 'Jaldi', sans-serif;
+	font-family: 'Patrick Hand SC', cursive;
 }
 .navtext a:hover {
 	color: #A76571;
@@ -47,7 +47,7 @@
 	background: url('background.png') no-repeat top;
 	background-size: cover;
 	height: 100vh;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Patrick Hand SC', cursive;
 }
 .aboutmesection {
 	background-color: #C9D5B5;
@@ -74,6 +74,7 @@
 	margin-top: 130px;
 	text-transform: uppercase;
 	font-size: 16px;
+	padding-top: 15px;
 	font-weight: 600;
 }
 .contactbutton {
@@ -166,6 +167,14 @@
 	text-align: right;
 	margin-right: 55px;
 	cursor: default;
+}
+.devtext {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 30px;
+}
+.skillstitle {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 30px;
 }
 .skill-list-item {
 	font-size: 17px;
@@ -279,6 +288,7 @@ ul {
 	font-size: 45px;
 	padding-bottom: 15px;
     display: block;
+   	font-family: 'Patrick Hand SC', cursive;
 }
 
 .projects {
@@ -327,6 +337,7 @@ ul {
 	font-size: 12px;
 	padding-top: 15px;
 	padding-bottom: 10px;
+	font-family: 'Patrick Hand SC', cursive;
 }
 .footer-links-text {
 	display: block;
@@ -399,8 +410,9 @@ ul {
 	}
 
 	.mynametext {
-		 padding-top: 92px;
-		font-size: 45px;
+		padding-top: 92px;
+		font-size: 60px;
+		font-family: 'Patrick Hand SC', cursive;
 	}
 
 	.textabout {
