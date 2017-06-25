@@ -277,17 +277,36 @@ ul {
 
 .projecttitletext {
 	font-size: 45px;
+	padding-bottom: 15px;
+    display: block;
 }
 
 .projects {
 	font-family: 'Jaldi', sans-serif;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .blocjams {
     padding: 15px;
-    display: block;
+    display: inline-block;
     position: relative;
-    margin: 40px 10px 0 15px;
+    text-align: center;
+}
+
+.hugoinsurance {
+	display: inline-block;
+	padding-left: 10px;
+	position: relative;
+	text-align: center;
+}
+
+.mocktext {
+    position: relative;
+    font-size: 13px;
+    padding-top: 23px;
+    display: inline-block;
 }
 
 .blocjamstext {
@@ -451,6 +470,18 @@ ul {
 	    width: 325px;
 	}	
 
+	 .hugoinsurance {
+	    padding-left: 10px;
+	    display: block;
+	    position: relative;
+	    text-align: center;
+	}
+
+	.imagehugomock img {
+	    width: 200;
+	    width: 325px;
+	}	
+
 	.address {
 		border-radius: 0;
 		background-color: #C9D5B5;
@@ -486,4 +517,14 @@ ul {
     text-align: right;
     cursor: default;
 	}  
+
+	.projects {
+		display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	.myimage img {
+		padding-left: 40px;
+	}
 } 
