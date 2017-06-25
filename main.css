@@ -267,6 +267,36 @@ ul {
 }
 .locationinfo {}
 
+.projecttitle {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.projecttitletext {
+	font-size: 45px;
+}
+
+.projects {
+	font-family: 'Jaldi', sans-serif;
+}
+
+.blocjams {
+    padding: 15px;
+    display: block;
+    position: relative;
+    margin: 40px 10px 0 15px;
+}
+
+.blocjamstext {
+    position: relative;
+    font-size: 13px;
+    padding-top: 10px;
+    display: block;
+}
+
 /*FOOTER CSS*/
 
 .footer {
@@ -396,14 +426,30 @@ ul {
 	}
 
 	.phone {
-    border-radius: 0;
-    background-color: #C9D5B5;
+	    border-radius: 0;
+	    background-color: #C9D5B5;
 	}
 
 	.email {
 		border-radius: 0;
 		background-color: #C9D5B5;	
 	}
+
+	.projecttitletext {
+    	font-size: 30px;
+	}
+
+	.blocjams {
+	    padding: 15px;
+	    display: block;
+	    position: relative;
+	    text-align: center;
+	}
+
+	.imageblocjams img {
+	    width: 200;
+	    width: 325px;
+	}	
 
 	.address {
 		border-radius: 0;
