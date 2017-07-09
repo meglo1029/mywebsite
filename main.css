@@ -9,7 +9,8 @@
     width: 100%;
 }
 .nav {
-	float: left;
+	display: flex;
+	justify-content: flex-end;
 }
 .clearfix:after {
 	content: "";
@@ -184,7 +185,7 @@
 	font-size: 30px;
 }
 .skill-list-item {
-	font-size: 17px;
+	font-size: 15px;
 	-o-transition: color .3s ease-out, background 5s ease-in;
 	-ms-transition: color .3s ease-out, background 5s ease-in;
 	-moz-transition: color .3s ease-out, background 5s ease-in;
@@ -311,19 +312,6 @@ ul {
 	justify-content: center;
 }
 
-.blocjams {
-    padding: 15px;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-}
-
-.hugoinsurance {
-	display: inline-block;
-	padding-left: 10px;
-	position: relative;
-	text-align: center;
-}
 
 .mocktext {
     position: relative;
@@ -332,17 +320,13 @@ ul {
     display: inline-block;
 }
 
-.blocjamstext {
-    position: relative;
-    font-size: 13px;
-    padding-top: 10px;
-    display: block;
-}
 
 /*FOOTER CSS*/
 
 .footer {
 	background-color: #E3DBDB;
+	position: absolute;
+	width: 100%;
 }
 .moreinfotext {
 	display: block;
@@ -388,7 +372,237 @@ ul {
 }
 
 
+/*DROPDOWN MENU ------*/
 
+.dropdown {
+    /*float: left;*/
+    overflow: hidden;
+    display: inline;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 12px;    
+    border: none;
+    outline: none;
+    color: #000;
+    /*padding: 14px 16px;*/
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: #A76571;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+
+/*BLOC JAMS PROJECT PAGE ------*/
+
+.startofbody {
+	height: 100vh;
+	background-color: #e3f4fa;
+
+}
+
+.blocjamstext {
+	display: block;
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.blocjamsinnertext {
+	display: block;
+	font-size: 30px;
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	margin: 10px;
+}
+
+.projectext {
+	display: block;
+	text-align: center;
+	font-family: 'Jaldi', sans-serif; 
+	font-size: 14px;
+}
+
+.blocjamscontainer {
+	width: 450px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+
+.partonetext {
+	display: block;
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.partoneimage img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+    margin-top: 25px;
+    height: 600px;
+}
+
+.partoneimage1 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    height: 465px;
+}
+
+.partonecontent {
+	display: block;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+}
+
+.parttwotext {
+	display: block;
+    font-size: 54px;
+    font-family: 'Patrick Hand SC', cursive;
+    border-top: 3px solid;
+    padding-top: 25px;
+}
+
+.partonecontainer {
+	width: 450px;
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.parttwocontainer {
+	width: 450px;
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.parttwoimage img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+    margin-top: 25px;
+    height: 480px;
+}
+
+.parttwoimage2 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    height: 430px;
+}
+
+.parttwocontent {
+    display: block;
+    width: 500px;
+    font-family: 'Jaldi', sans-serif; 
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.fullbody {
+    padding: 25px;
+    margin: 20px;
+}
+
+.buttonposition {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.listeningtomusic img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.viewcode {
+	width: 150px;
+	padding: 20px;
+	border-radius: 17px;
+	border-width: 1px;
+	background-color: #A76571;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.viewcode:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.viewcode a, .viewlive a {
+	color: #fff;
+}
+
+.viewlive {
+	width: 150px;
+	padding: 20px;
+	border-radius: 17px;
+	border-width: 1px;
+	background-color: #A76571;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.viewlive:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+/*CLEARFIX -----*/
+.fullbody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*END BLOC JAMS PAGE*/
 
 @media all and (max-width: 480px) and (min-width: 320px) {
 
@@ -481,35 +695,55 @@ ul {
 
 	.projecttitletext {
     	font-size: 30px;
-	}
-
-	.blocjams {
-	    padding: 15px;
-	    display: block;
-	    position: relative;
-	    text-align: center;
-	}
-
-	.imageblocjams img {
-	    width: 200;
-	    width: 325px;
-	}
-
-	 .hugoinsurance {
-	    padding-left: 10px;
-	    display: block;
-	    position: relative;
-	    text-align: center;
-	}
-
-	.imagehugomock img {
-	    width: 200;
-	    width: 325px;
 	}	
 
 	.address {
 		border-radius: 0;
 		background-color: #C9D5B5;
+	}
+
+	.viewcode {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.viewlive {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.partonecontainer {
+		width: inherit;
+	}
+
+	.parttwocontainer {
+		width: inherit;
+	}
+
+	.blocjamscontainer {
+	    width: 305px;
+	    padding-top: 70px; 
+	}
+
+	.partoneimage img {
+		height: 240px;
+	}
+
+	.startofbody {
+		padding-bottom: 100px;
+	}
+
+	.parttwocontent {
+	 	display: initial;
+	}
+
+	.parttwoimage img {
+		height: 240px;
+	}
+
+	.buttonposition {
+		padding-top: 10px;
 	}
 }
 
@@ -522,6 +756,14 @@ ul {
 
 	.textabout {
 		margin-top: 76px;
+	}
+
+	.partonecontainer {
+		margin: initial;
+	}
+
+	.parttwocontainer {
+		margin: initial;
 	}
 
 }
@@ -548,6 +790,7 @@ ul {
 	    margin: 0 auto;
 	    text-align: center;
 	}
+
 
 	.myimage img {
 		padding-left: 40px;
