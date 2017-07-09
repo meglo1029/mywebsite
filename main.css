@@ -730,6 +730,10 @@ ul {
 		height: 240px;
 	}
 
+	.partoneimage1 img {
+		height: 203px;
+	}
+
 	.startofbody {
 		padding-bottom: 100px;
 	}
@@ -740,6 +744,26 @@ ul {
 
 	.parttwoimage img {
 		height: 240px;
+	}
+
+	.parttwoimage2 img {
+		height: 187px;
+	}
+
+	.partonetext {
+		font-size: 40px;
+	}
+
+	.parttwotext {
+		font-size: 40px;
+	}
+
+	.partonecontent {
+		font-size: 12px;
+	}
+
+	.parttwocontent {
+		font-size: 12px;
 	}
 
 	.buttonposition {
@@ -778,11 +802,11 @@ ul {
 	}
 
 	.skills {
-    font-size: 24px;
-    width: inherit;
-    float: none;
-    text-align: right;
-    cursor: default;
+	    font-size: 24px;
+	    width: inherit;
+	    float: none;
+	    text-align: right;
+	    cursor: default;
 	}  
 
 	.projects {
@@ -791,6 +815,25 @@ ul {
 	    text-align: center;
 	}
 
+	.startofbody {
+		padding-bottom: 40px;
+	}
+
+	.partoneimage img {
+		height: 565px;
+	}
+
+	.partoneimage1 img {
+		height: 440px;
+	}
+
+	.parttwoimage img {
+		height: 438px;
+	}
+
+	.parttwoimage2 img {
+		height: 386px;
+	}
 
 	.myimage img {
 		padding-left: 40px;
