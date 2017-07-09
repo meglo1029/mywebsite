@@ -22,7 +22,7 @@
 	zoom: 1;
 }
 .navtext {
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	display: inline-block;
 	margin: 20px;
@@ -543,7 +543,7 @@ ul {
 
 .buttonposition {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 55px;
 }
 
 .listeningtomusic img {
@@ -624,7 +624,9 @@ ul {
 
 	.nav {
 		text-align: center;
-	    position: fixed;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
 	}
 
 	.navtext {
