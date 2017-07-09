@@ -774,6 +774,10 @@ ul {
 		font-size: 12px;
 	}
 
+	.dropdown .dropbtn {
+	    font-size: 11px; 
+	}
+
 	.buttonposition {
 		padding-top: 10px;
 	}
@@ -784,6 +788,10 @@ ul {
 
 	.mynametext {
 		padding-top: 82px;
+	}
+
+	.dropdown .dropbtn {
+		font-size: 11px;
 	}
 
 	.textabout {
