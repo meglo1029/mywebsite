@@ -624,15 +624,17 @@ ul {
 
 	.nav {
 		text-align: center;
-	    display: flex;
+	    position: fixed;
 	}
 
 	.navtext {
-		font-size: 12px;
+		font-size: 11px;
 	    text-transform: uppercase;
 	    display: inline-block;
-	    margin: 20px;
+	    margin: 8px;
 	    padding: 0;
+	    padding-top: 10px;
+    	padding-right: 0px;
 	    font-family: 'Jaldi', sans-serif; 
 	}
 
@@ -713,6 +715,10 @@ ul {
 		margin: 0 auto;
 	}
 
+	.projecttext {
+		font-size: 13px;
+	}
+
 	.partonecontainer {
 		width: inherit;
 	}
@@ -743,7 +749,7 @@ ul {
 	}
 
 	.parttwoimage img {
-		height: 240px;
+		height: 228px;
 	}
 
 	.parttwoimage2 img {
