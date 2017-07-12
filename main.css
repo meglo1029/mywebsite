@@ -840,7 +840,7 @@ ul {
 	}
 } 
 
-@media all and (max-width: 1440px) and (min-width: 768px) { 
+@media all and (max-width: 2560px) and (min-width: 768px) { 
 
 	.partoneimage img {
 		height: auto;
@@ -862,5 +862,4 @@ ul {
 		height: auto;
 		max-width: 600px;
 	}
-
 }
