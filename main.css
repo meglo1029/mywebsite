@@ -47,7 +47,8 @@
 .welcome {
 	background: url('backgroundocean.png') no-repeat top;
 	background-size: cover;
-	padding-bottom: 125px;
+	padding-bottom: 195px;
+	background-position: 0px;
 	font-family: 'Amatic SC', cursive;
 }
 .aboutmesection {
@@ -553,6 +554,13 @@ ul {
     /*height: 600px;*/
     height: auto;
     max-width: 100%;
+    -webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.partoneimage img:hover {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
+	box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
 }
 
 .partoneimage1 img {
@@ -563,6 +571,13 @@ ul {
     /*height: 465px;*/
     height: auto;
     max-width: 100%;
+    -webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.partoneimage1 img:hover {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
+	box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
 }
 
 .partonecontent {
@@ -603,7 +618,17 @@ ul {
     /*height: 480px;*/
     height: auto;
     max-width: 100%;
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+	box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
+
+.parttwoimage img:hover {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
+	box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
+}
+
 
 .parttwoimage2 img {
     display: block;
@@ -613,6 +638,15 @@ ul {
     /*height: 430px;*/
     height: auto;
     max-width: 100%;
+     -webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+	box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.parttwoimage2 img:hover {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
+	box-shadow: 0px 0px 15px 5px rgba(167, 101, 113, 1);
 }
 
 .parttwocontent {
@@ -652,7 +686,8 @@ ul {
 	cursor: pointer;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .viewcode:hover {
 	background: rgba(0, 0, 0, 0);
@@ -675,7 +710,8 @@ ul {
 	cursor: pointer;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .viewlive:hover {
 	background: rgba(0, 0, 0, 0);
