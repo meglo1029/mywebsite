@@ -223,25 +223,32 @@
 }
 .progress {
 	font-size: 24px;
+    width: 346px;
 	/*display: block;*/
-	margin: 0 auto;
-	float: left;
-	width: 220px;;
-	padding-top: 115px;
+	/*margin: 0 auto;*/
+	/*float: left;*/
+	/*width: 220px;;*/
+	/*padding-top: 115px;*/
 }
 .progresstext {
 	font-size: 14px;
-	display: table-cell;
+	/*display: table-cell;*/
 	padding-top: 10px;
 }
 .skills {
 	font-size: 24px;
-	width: 500px;
-	float: right;
+	/*width: 500px;*/
+	/*float: right;*/
 	text-align: right;
-	margin-right: 55px;
+	padding-right: 20px;
+	/*margin-right: 55px;*/
 	cursor: default;
 }
+.container2 {
+    display: flex;
+    justify-content: center; 
+}
+
 .devtext {
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
@@ -285,6 +292,7 @@ ul {
 	margin: 55px 55px 20px 55px;
 	display: flex;
 	justify-content: center;
+	padding-bottom: 30px;
 }
 .phone {
 	position: relative;
@@ -350,11 +358,15 @@ ul {
 	display: flex;
 	justify-content: center;
 }
-.phoneinfo {}
-.emailinfo {
-	margin: 0 15px;
+.phoneinfo {
+	 padding-top: 30px;
 }
-.locationinfo {}
+.emailinfo {
+ 	padding-top: 30px;
+}
+.locationinfo {
+	padding-top: 30px;
+}
 
 .projecttitle {
 	display: block;
@@ -760,7 +772,6 @@ ul {
 	.contactmecontent {
 		font-size: 13px;
 	    padding-top: 25px;
-	    padding: 15px;
 	}
 
 	.phone {
@@ -924,13 +935,13 @@ ul {
 		margin-top: 97px;
 	}
 
-	.skills {
+/*	.skills {
 	    font-size: 24px;
 	    width: inherit;
 	    float: none;
 	    text-align: right;
 	    cursor: default;
-	}  
+	}  */
 
 	.projects {
 		display: block;
