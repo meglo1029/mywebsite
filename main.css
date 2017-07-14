@@ -1,5 +1,5 @@
 /*HEADER CSS*/
-body {
+.bodybg {
 	background: url('mountains.jpg') no-repeat;
     background-position: 0px 1630px;
 }
@@ -739,7 +739,7 @@ ul {
 	    width: 80%; 
 	}
 
-	body {
+	.bodybg {
 		background-position: -90px 2156px;
 	}
 
