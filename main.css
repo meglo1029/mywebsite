@@ -1,7 +1,7 @@
 /*HEADER CSS*/
 .bodybg {
 	background: url('mountains.jpg') no-repeat;
-    background-position: 0px 1630px;
+    background-position: 0px 1503px;
 }
 .header {
 	background: #fff;
@@ -48,10 +48,9 @@
 /*BODY CSS*/
 
 .welcome {
-	background: url('backgroundocean2.jpg') no-repeat top;
-	background-size: cover;
-	padding-bottom: 195px;
-	background-position: 0px;
+	background: url('funbackground2.png') no-repeat top;
+	background-size: contain;
+	background-position: center;
 	font-family: 'Amatic SC', cursive;
 }
 .aboutmesection {
@@ -135,18 +134,16 @@
 }
 .mynametext {
 	font-size: 100px;
-	display: block;
-	text-align: center;
-	font-weight: 600;
+	display: inline-block;
 	padding-top: 135px;
+	padding-left: 30px;
 }
 .textabout {
-	text-align: center;
 	margin-top: 130px;
 	text-transform: uppercase;
 	font-size: 30px;
 	padding-top: 15px;
-	font-weight: 600;
+	padding-left: 35px;
 }
 .contactbutton {
 	width: 150px;
@@ -157,6 +154,7 @@
 	display: block;
 	margin: 0 auto;
 	margin-top: 150px;
+	margin-bottom: 20px;
 	text-align: center;
 	cursor: pointer;
 	color: #fff;
@@ -740,7 +738,7 @@ ul {
 	}
 
 	.bodybg {
-		background-position: -90px 2156px;
+		background-position: -90px 2007px;
 	}
 
 	 .aboutme-second.point {
