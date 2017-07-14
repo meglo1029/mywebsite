@@ -1,5 +1,8 @@
 /*HEADER CSS*/
-
+body {
+	background: url('mountains.jpg') no-repeat;
+    background-position: 0px 1630px;
+}
 .header {
 	background: #fff;
 	height: 55px;
@@ -45,7 +48,7 @@
 /*BODY CSS*/
 
 .welcome {
-	background: url('backgroundocean.png') no-repeat top;
+	background: url('backgroundocean2.jpg') no-repeat top;
 	background-size: cover;
 	padding-bottom: 195px;
 	background-position: 0px;
@@ -733,7 +736,12 @@ ul {
 	.aboutme-first.point {
 	    display: block;
 	    position: relative;
-	    width: 80%; }
+	    width: 80%; 
+	}
+
+	body {
+		background-position: -90px 2156px;
+	}
 
 	 .aboutme-second.point {
 	    display: block;
