@@ -976,6 +976,22 @@ ul {
     padding: 30px;
 }
 
+.desktop {
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	text-align: center;
+	display: block;
+	padding-bottom: 15px;
+}
+
+.mobile {
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	text-align: center;
+	display: block;
+	padding-bottom: 15px;
+}
+
 .aboutwireframetext {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -985,6 +1001,13 @@ ul {
 }
 
 .wireframeimage img {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+    max-width: 100%;
+}
+
+.wireframeimage2 img {
 	display: block;
 	margin: 0 auto;
 	height: auto;
