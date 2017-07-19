@@ -593,7 +593,6 @@ ul {
 	display: block;
     font-size: 54px;
     font-family: 'Amatic SC', cursive;
-    border-top: 3px solid;
     padding-top: 25px;
 }
 
@@ -943,6 +942,54 @@ ul {
 	}
 }
 
+/*WIREFRAMES PAGE --------------*/
+
+.wireframeinfo {
+	background: url('Webp.net-compress-image (1).jpg') no-repeat top;
+	background-size: cover;
+	padding-top: 45px;
+	padding-bottom: 350px;
+}
+
+.mywireframeinfo {
+    display: block;
+    color: black;
+    font-size: 100px;
+    padding-top: 95px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.mywireframeinfo2 {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.aboutwireframe {
+	display: block;
+	text-align: center;
+	width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.aboutwireframetext {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.wireframeimage {
+    padding: 20px;
+}
+
+.wireframeimage img {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+    max-width: 100%;
+}
 
 @media all and (max-width: 765px) and (min-width: 481px) { 
 
