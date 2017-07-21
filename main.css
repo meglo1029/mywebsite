@@ -1000,6 +1000,10 @@ ul {
     padding: 20px;
 }
 
+.wireframeimage2 {
+    padding: 20px;
+}
+
 .wireframeimage img {
 	display: block;
 	margin: 0 auto;
@@ -1012,7 +1016,133 @@ ul {
 	margin: 0 auto;
 	height: auto;
     max-width: 100%;
+
 }
+
+/*MOCKUP CSS -------------*/
+
+.aboutmockups {
+	padding-top: 55px;
+}
+
+.secondmockupimage img {
+	height: auto;
+    max-width: 50%;
+}
+
+.thirdmockupimage img {
+	height: auto;
+    max-width: 50%;
+}
+
+.firstmockupimage img {
+	height: auto;
+    max-width: 50%;
+}
+
+.fourthmockupimage img {
+	height: auto;
+    max-width: 50%;
+}
+
+.desktopmockup img {
+	height: auto;
+	max-width: 70%;
+}
+
+.viewmockup {
+	width: 150px;
+	padding: 20px;
+	border-radius: 17px;
+	border-width: 1px;
+	background-color: #A76571;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 40px;
+}
+.viewmockup:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.viewmockup a {
+	color: #fff;
+}
+
+.mockupimages {
+	display: flex;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.mockupimagestwo {
+	display: flex;
+	text-align: center;
+	padding-bottom: 55px;
+}
+
+.abouttextmockups {
+	width: 60%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.aboutbigmockup {
+    display: block;
+    color: black;
+    font-size: 100px;
+    padding-top: 95px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.aboutsmallmockup {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.desktopmockup img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.prototypeimage img {
+	height: auto;
+	max-width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.prototypetextinfo {
+	font-family: 'Amatic SC', cursive;
+    text-align: center;
+    display: block;
+    font-size: 100px;
+    padding-top: 55px;
+}
+
+.bodybackground2 {
+	background-color: #e4e4e4;
+}
+
+/*END MOCK UP CSS*/
 
 @media all and (max-width: 765px) and (min-width: 481px) { 
 
